@@ -8,7 +8,7 @@ import '../../CSS/Animation.css';
 
 function Application() {
   return (<>
-    <div className="container mt-5 bg-blue fontv text-light" dir="rtl" style={{ padding: '25px', borderRadius: '15px' }}>
+    <div className="container  mt-5 bg-blue fontv text-light" dir="rtl" style={{ padding: '25px', borderRadius: '15px' }}>
       <div className="row">
         <div className="col-md-6 d-flex justify-content-center align-items-center">
           <div className="text-center">
@@ -37,7 +37,7 @@ function Application() {
             {`\u2022`}ﺳﺎﻣﺎﻧﻪ ﻫﺎی ﮐﻨﺘﺮل دﺳﺘﺮﺳﯽ
           </div>
           <div className="pt-3">
-            <a href="/ida-ltd/pi" class="link"><button className="btn btn-md btn-outline-light col-md-12">اطلاعات بیشتر</button></a>
+            <a href='/products' class="link"><button className="btn btn-md btn-outline-light col-md-12">اطلاعات بیشتر</button></a>
           </div>
         </div>
       </div>
