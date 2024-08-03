@@ -6,6 +6,8 @@ import {
   Route,
   useLocation,
 } from "react-router-dom";
+import { Helmet } from "react-helmet";
+
 import FlipBox from "./Components/Home/Card";
 import CustomNavbar from "./Components/Navbar";
 import Home from "./Components/Home";
@@ -19,6 +21,9 @@ import Error from "./Components/404";
 const App = () => {
   return (
     <>
+      <Helmet>
+        <title>{"IDA Intelligent, Data, Aim"}</title>
+      </Helmet>
       <CustomNavbar />
       <Router>
         <Routes>
