@@ -45,6 +45,7 @@
     margin-right: 0 !important;
     margin-bottom: 15px;
   }
+
   .slide-in {
     transform: translateX(0);
 
@@ -54,5 +55,5 @@
     transform: translateX(0);
 
   }
-  
+
 }
