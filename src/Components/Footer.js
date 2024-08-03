@@ -18,8 +18,8 @@ function Footer() {
             <ul>
               <li><a class="link text-primary" href="/">خانه</a></li>
               <li><a class="link text-primary" href="/about">درباره ما</a></li>
-              <li><a class="link text-primary" href="#">خدمات</a></li>
-              <li><a class="link text-primary" href="#">ارتباط با ما</a></li>
+              <li><a class="link text-primary" href="/services">خدمات</a></li>
+              <li><a class="link text-primary" href="/about">ارتباط با ما</a></li>
             </ul>
           </div>
           <div className="col-md-3 ">
